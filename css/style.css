@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+/* div{
+    background-color: lightpink;
+} */
+/* .text{
+    background-color: pink;
+}
+#hai{
+    background-color: green;
+} */
+body{
+    background-color: gray;
+    /* background-image: url(bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin:0px;
+}
+/* .circle{
+    border: 2px solid red;
+   border-width: px; 
+  border-style: solid;
+    border-color: rgb(8, 11, 73);
+    width: 200px;
+    height:200px;
+    background-color: rgb(207, 160, 160);
+    border-top-color: red;
+    border-top-style: dotted;
+    border-top-width: 10px;
+    border-radius: 50%;
+    margin: auto; 
+}
+.box1{
+    background-image: url(bg.jpg);
+    height:300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* display: grid;
+   justify-content: center;
+   align-items: center; 
+}
+.boxtext{
+    color:white;
+    text-align: center;
+    
+} */
+/* .squarebox{
+    border:2px solid green;
+    margin:30px;
+    height:200px;
+    width:200px; 
+     padding:20px;
+    padding:30px;
+    outline-style: dashed;
+    outline-color: red;
+    outline-width: 10px;
+    outline-offset: 10px;
+}
+p{
+    color:blue;
+    text-indent: 50px;
+    word-spacing: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Allison", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+h1{
+    text-align: justify;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; 
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 10px;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    color:white;
+    text-shadow: 2px 3px 5px red,2px 2px 5px  black;
+
+    font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+i{
+    font-size: 50px;
+    color:blueviolet;
+}
+a{
+    color:aqua;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:black;
+}
+a:visited{
+    color:brown;
+}
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    height:100px;
+    border-bottom: 2px solid blue;
+    
+}
+table{
+    width:50%;
+}
+tr:hover{
+    background-color: rgb(170, 142, 196);
+}
+th{
+    background-color: white;
+    
+}
+td{
+    color:brown;
+}
+td:hover{
+    color:orangered;
+}
+/* div{
+    border:2px solid rgb(77, 18, 4);
+    margin-top: 30px;
+    height:200px;
+    width:200px;
+    display: inline;
+    
+} */
+/* span{
+    border:2px solid green;
+    margin-top: 30px;
+    height:200px;
+    width:200px;
+    display: block;
+} */
+
+span{
+    border:2px solid green;
+    margin-top: 30px;
+    height:200px;
+    width:200px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.static{
+    position: static;
+    border: 2px solid black;
+    margin-top: 50px;
+    left:40px;
+}
+.relative{
+    position: relative;
+    border: 2px solid black;
+    margin-top: 50px;
+    left:40px;
+    
+} 
+.fixed{
+    position:fixed;
+    border: 2px solid black;
+    margin-top: 50px;
+    left:40px;
+}
+.abs{
+    position:absolute;
+    border: 2px solid black;
+    top:0px;
+    left:40px;    
+}
+.a{
+    border:2px solid green;
+    height:200px;
+    width:200px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.st{
+    position:sticky;
+    position: -webkit-sticky;
+    border: 2px solid black;
+    top:0px;
+    left:40px; 
+    background-color: blue;   
+}
+.over{
+    background-color: orangered;
+    border:2px solid black;
+    width:200px;
+    height:100px;
+    overflow: scroll;
+}
+.float{
+    float: none;
+}
+.b1{
+    opacity: 0.2;
+}
+p{
+    background-color: brown;
+}
+.a1{
+    background-color: yellow;
+}
+.a2{
+    background-color: orange;
+}
